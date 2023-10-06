@@ -3,8 +3,8 @@ import React from 'react'
 const Shoecard = ({imgURL, changeBigShoeImage, bigShoeImg}) => {
   
   const handleClick = () => {
-    if (bigShoeImg != imgeURL.bigShoe) {
-        changeBigShoeImage(imgeURL.bigShoe)
+    if (bigShoeImg != imgURL.bigShoe) {
+        changeBigShoeImage(imgURL.bigShoe)
     }
   }
     return (
