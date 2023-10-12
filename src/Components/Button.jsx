@@ -6,7 +6,7 @@ const Button = ({label, iconURL, backgroundColor, borderColor, textColor, fullWi
     <button className={`flex rounded-full justify-center items-center gap-2 px-7 py-4 border font-mono text-lg leading-none 
     ${backgroundColor 
     ? `${backgroundColor} ${textColor} ${borderColor}`
-    : 'bg-rose-400  text-white border-rose-400'}rounded-full ${fullWidth && 'w-full'}"}`}>
+    : 'bg-rose-500  text-white border-rose-400'}rounded-full ${fullWidth && 'w-full'}"}`}>
 
         {label}
         

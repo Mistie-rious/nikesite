@@ -17,7 +17,7 @@ const SpecialOffer = () => {
   <h2 className=' font-palanquin text-4xl capitalize lg:max-w-lg: font-bold'>
    
     <span 
-    className='text-rose-400'>  Special
+    className='text-rose-500'>  Special
     </span> Offer
      
 
